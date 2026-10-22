@@ -1,6 +1,6 @@
 module github.com/V4NSH4J/discord-mass-dm-GO
 
-go 1.18
+go 1.25.0
 
 require (
 	github.com/andybalholm/brotli v1.0.4
@@ -9,7 +9,7 @@ require (
 	github.com/gookit/color v1.5.0
 	github.com/gorilla/websocket v1.5.0 // direct
 	github.com/zenthangplus/goccm v0.0.0-20211005163543-2f2e522aca15
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -21,17 +21,17 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	golang.org/x/sys v0.45.0 // indirect
 )
 
-require golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
+require golang.org/x/crypto v0.52.0 // indirect
 
-require golang.org/x/net v0.0.0-20220726230323-06994584191e
+require golang.org/x/net v0.54.0
 
 require (
 	github.com/Danny-Dasilva/fhttp v0.0.0-20220524230104-f801520157d6
 	github.com/Danny-Dasilva/utls v0.0.0-20220604023528-30cb107b834e
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/stretchr/testify v1.7.1 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
